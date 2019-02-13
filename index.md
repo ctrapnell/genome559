@@ -19,20 +19,22 @@
 
 ## Course description
 Rudiments of statistical and computational genomics. Emphasis on basic probability and statistics, introduction to computer programming and relevant web databases. This course is intended to introduce students with non-computer science backgrounds to the major concepts of programming and statistics.
-Instructional staff
-William Stafford Noble
-Cole Trapnell
-Teaching assistant: Jonathan Packer
+
+## Instructional staff
+* [William Stafford Noble](http://noble.gs.washington.edu/~noble)
+* [Cole Trapnell](http://cole-trapnell-lab.github.io/)
+* Teaching assistant: [Jonathan Packer](http://cole-trapnell-lab.github.io/team/jonathan-packer/)
+
 Please click on the links above for email addresses and office locations.
 
 ## Meeting times and locations
 ### Classes: 
 
-Tuesday and Thursday, 10:30 - 11:50 am, Foege Building S040.
-### Office hours: 
+Tuesday and Thursday, 10:30 - 11:50 am, [Foege Building S040](http://www.washington.edu/home/maps/southcentral.html?gnom).
 
-Mondays, 4-5pm in Foege Building S110
-Fridays, 2-3p in Foege in the area where Vista Cafe used to be (back of the 1st floor)
+### Office hours: 
+* Mondays, 4-5pm in [Foege Building S110](http://www.washington.edu/home/maps/southcentral.html?gnom)
+* Fridays, 2-3p in Foege in the area where Vista Cafe used to be (back of the 1st floor)
 
 ## Prerequisites
 Substantial background in molecular and cellular biology, genetics, biochemistry, or related disciplines.
@@ -41,10 +43,10 @@ Substantial background in molecular and cellular biology, genetics, biochemistry
 Readings for the Python parts of the class will be assigned from the free online textbook Think Python. A listing of additional reference material can be found here.
 
 ## Course requirements
-The course involves hands-on programming during class time, so students should bring a laptop to class.
-All problem sets are due by the start of class on the date listed.
-Late homework will be accepted, but penalized. Specifically, each assignment is worth 100 points, from which 10 points will be deducted for each day (or fraction thereof) that you turn it in late. The maximum deduction for being late is 60 points (even if you are more than 6 days late).
-You are welcome to talk to classmates about principles for solving problems, but please do not solve specific problems together. In many ways, the problem solving is where you will learn the most for this class, especially the programming.
+* The course involves hands-on programming during class time, so students should bring a laptop to class.
+* All problem sets are due by the start of class on the date listed.
+* Late homework will be accepted, but penalized. Specifically, each assignment is worth 100 points, from which 10 points will be deducted for each day (or fraction thereof) that you turn it in late. The maximum deduction for being late is 60 points (even if you are more than 6 days late).
+* You are welcome to talk to classmates about principles for solving problems, but please do not solve specific problems together. In many ways, the problem solving is where you will learn the most for this class, especially the programming.
 
 ## Examinations
 
@@ -61,353 +63,14 @@ A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 
 | Date | Lecture Topic | Programming Topic | Reading | Homework Assigned |
 | ---- | ------------- | ----------------- | ------- | ----------------- |
-|   XXX   | [Phylogenetic Trees](slides/XXX) | [The next step ....](XXX/slides) | | |
+|   XXX   | [Phylogenetic Trees](slides/NEW_1A_Trees.pdf) | [The next step ....](slides/NEW_1B_NextSteps.pdf) | | |
+|   XXX   | [Parsimony](slides/NEW_2A_Parsimony.pdf) | [Functions](slides/NEW_2B_Functions.pdf) | | |
+|   XXX   | [Small parsimony](slides/NEW_3A_SmallParsimony.pdf) | [	Functions, arguments](slides/NEW_3B_Functions_Arguments.pdf) | | |
+|   XXX   | [Big Parsimony, Bootstrap support](slides/NEW_4A_LargeParsimonyBranch.pdf) | [Modules](slides/NEW_4B_Functions_Modules.pdf.pdf) | | |
+|   XXX   | [Clustering, hierarchical Clustring](slides/NEW_5A_Clustering_Hierarchical.pdf) | [More on functions, Sorting](slides/NEW_5B_functions_and_sorting.pdf) | | |
+|   XXX   | [K-mean clustring](slides/NEW_6A_Clustering_Kmean.pdf) | [Classes and objects 1](slides/NEW_6B_Classes_1.pdf) | | |
+|   XXX   | [Biological networks and Dijkstra's algorithm](slides/NEW_7A_Networks_Dijkstra.pdf) | [Classes and objects 2](slides/NEW_7B_Classes_2) | | |
+|   XXX   | [	Biological networks and network motifs](slides/NEW_8A_Networks_Motifs.pdf) | [Classes and objects 3 (practice)](slides/NEW_8B_Classes_3.pdf) | | |
+|   Mon Mar 18  |  Final exam, 10:30 am - 12:20 pm, Foege S110 (Note the different room number) |
 
 
-
-
-## Class 1: Basic principles
-
-### Jacob and Monod, J. Mol. Biol. 3: 318-356 (1961) [\[pdf\]](pdfs/jacob_monod.pdf)
-
-_A seminal work of innovative synthesis, providing the intellectual foundation for the study of gene regulation._  
-
-This work has played such a large role in the conceptualization of gene regulatory phenomena extending over many decades that we will be stepping through the key points of the paper sequentially.  The high-level themes/questions to consider are:
-
-1. What is the relative importance assigned to positive (activator) vs. negative (repressor) regulation?
-2. What logic supports Jacob and Monod’s conception of ‘messenger RNA’?
-3. How do kinetic (vs. qualitative yes/no) experiments influence how Jacob and Monod conceptualize and development key problems of gene regulation?
-
-### Rob Phillips, Annu. Rev. Condens. Matter Phys.  2015. 6:85–111 (2015) [\[pdf\]](pdfs/phillips.pdf)
-
-_A modern physicists' view of transcriptional regulation_
-
-This review describes a mathematical framework for building quantitative models of transcription.
-
-1. How are the values of $$\Delta\epsilon_{rd}$$ shown in Figure 7 determined?
-2. How many parameters (e.g. constants) does equation 16 depend on? How would adding or removing an additional repressor change this number?
-
-
-------
-
-## Class 2: Chromatin accessibility
-
-### Ptashne, Nature 214:232-5 (1967) [\[pdf\]](pdfs/ptashne_nature_1967.pdf)
-
-_This paper established that regulatory protein entities such as those discussed by Jacob and Monod were in fact DNA binding proteins._
-
-1. Diagram the experiment
-2. What are the experimental conditions and how could alterations in those conditions have affected the results?
-
-------
-
-### Weintraub and Groudine, Science 193:848-56 (1976) [\[pdf\]](pdfs/weintraub_groudine.pdf)
-
-_This seminal paper provided the first evidence for the role of chromatin structure in gene expression._
-
-1. How do the authors introduce DNaseI into the nucleus?
-2. Describe the DNase I sensitivity assay as employed by the authors.  Could this be applied to any gene?
-3. What do the authors. results suggest about the general organization of mammalian chromatin?
-4. What prediction do the authors make concerning the spacial properties of gene expression in the nucleus?
-
-------
-
-### Galas and Schmitz Nucl. Acids Res. 5:3157-3170 (1978) [\[pdf\]](pdfs/galas_schmitz.pdf)
-_This paper described a technique of fundamental importance for the characterization of promoters and other regulatory elements -- essentially allowing the combination of the type of information described by Jacob/Monod and Ptashe._ 
-
-1. Describe the experiments and results illustrated in Figs. 2 and 5
-2. Is the technique dependent on the location of a protein binding site within the test sequence?
-NOTE:  We will be coming back to the kinetic analyses in Section C at a later class.
-
-------
-## Class 3: Regulatory signals in promoters
-
-### Pelham Cell 30:517-528 (1982) [\[pdf\]](pdfs/pelham.pdf)
-_This paper provided the first evidence of distinct, environmentally-responsive regulatory sequences in the non-coding DNA of higher eukaryotes._
-
-1. What does the experiment illustrated in Figure 2 establish?
-2. Describe the experiment illustrated in Figure 4 and its main conclusion
-3. Does HSE act as a thermostat? 
-
-------
-
-### Myers et al.   Science 232:613-619 (1986) [\[pdf\]](pdfs/myers.pdf)
-_This paper describes the first large-scale empirical characterization of human promoter elements with a functional assay._ 
-
-1. What are the CAAT, CACCC, and TATA boxes?  What proportion of human genes have these so-called "canonical" features?
-2. Describe the enhancer-dependent transcription assay used by Myers et al to ascertain the effect of promoter point mutants.
-3. Describe the assay used by Myers et al in Figure 2
-
-------
-
-## Tutorial 1 topics
-_We will discuss the first tutorial assignment (due approximately two weeks from now) at the beginning of this class._ 
-
-For this assignment, please write a summary of the history and significance of one of the following topics. It should be no more than 2 pages excluding references and ideally closer to 1.5 pages. You should be able to begin with a summary paragraph that:
-
-1. Defines the topic.
-2. States how it was discovered.
-3. Notes who discovered it.
-4. Provides an *extremely brief* (1-3 sentences) synopsis of the arc of experiments that followed the initial discovery.
-5. Concludes with a statement about the overall significance of the topic (as it understood today) for the field of gene regulation. 
-
-Here's an [example](pdfs/tutorial_example.pdf) of a good tutorial.
-
-The topics:
-
-1. Heat shock
-2. The TATA box
-3. The glucocorticoid receptor
-4. Metal response elements
-5. The SV40 enhancer
-6. The interferon enhanceosome
-7. Integration of exogenous DNA into cellular genomes
-8. Position effects
-9. Locus control regions
-10. High mobility group proteins
-
-------
-
-## Class 4: Splicing
-
-### Burnet et al. PNAS (1977) [\[pdf\]](pdfs/burnet.pdf)
-_Discovery of RNA splicing_
-
-1. What is an R-loop? How does R-loop mapping work?
-2. Describe the results of the experiments shown in Figure 4. What can the authors conclude about the structure of the hexon gene?
-
-------
-
-### Tsai et al. Cell 22 (1 Pt 1):219–30 (1980) [\[pdf\]](pdfs/tsai.pdf)
-_Demonstration that pre-mRNAs (so called hnRNAs) are the precursors for eukaryotic mRNA_
-
-1. Describe the pulse-chase experimental design.
-2. Explain the loop counting assay. How do the authors reach their conclusions about processing order from the data shown in Table 1?
-3. What is the significance of the experiment discussed in Figure 10?
-
-------
-
-### Amara et al  Nature 298:240-44 (1982) [\[pdf\]](pdfs/amara.pdf)
-_Reporting the existence of tissue-specific alternative splicing._
-
-1. Interpret the results shown in Figure one and Figure three.  What is the significance of the result shown in Figure 3b?
-2. Diagram the alternative splicing schema that results in production of calcitonin vs. CGRP.
-
-
-------
-
-## Class 5: Distal regulatory elements, Part I
-
-### Stalder et al.  Cell  20:451-460 (1980) [\[pdf\]](pdfs/stalder.pdf)
-
-_This paper was the first to describe the chromatin architecture of mammalian genes in relation to their cis-regulatory elements.  The paper was also the first to show that regulatory sequences undergo chromatin structural changes in different cell types._
-
-1. Diagram the experiment
-2. Contrast the DNaseI sensitivity assays employed in this paper vs. those of Weintraub and Groudine (Science, 1976).  Describe the different levels of DNaseI sensitivity the authors report and their interpretations for the structure of gene domains.
-3. How do the reported assays depend on the selection of restriction fragments and probes?
-4. Describe the experiment and results of Figure 5
-5. What significance to the authors assign to their results, and what predictions do they make?
-
-------
-
-### Banerji et al. Cell 27:299−308 (1981) [\[pdf\]](pdfs/banerji_1981.pdf)
-_Discovery of transcriptional enhancers encoded in viral genomes._
-
-1. What is the experimental schema and why did they devise it?
-2. How are the 5’ transcript ends determined in Figure 2? How did they estimate the number of transcripts per cell?
-3. How do they show that the enhancement phenomenon is not an artifact of the experimental system?
-4. How well did they localize the sequences responsible for enhancer activity?
-
-
-------
-
-## Class 6: Distal regulatory elements, Part II
-
-### Banerji et al.  Cell  33:729-40 (1983) [\[pdf\]](pdfs/banerji_1983.pdf)
-_Discovery of the first enhancer of a tissue-specific eukaryotic cellular gene._
-
-1. What is the definition of an enhancer element (i.e., specific criteria)? Outline the experiments that Banerji et al. used to fulfill these criteria.
-2. Describe the experiments summarized in Figure two and Table two.
-3. How does the enhancer element they identified differ from viral enhancers such as that of SV40?
-4. What happens to this enhancer during B-cell maturation?
-
-------
-
-### Hanahan Nature 315:115-22 (1985) [\[pdf\]](pdfs/hanahan.pdf)
-_First demonstration of the activity of a cellular enhancer in vivo._
-
-1. What is an oncogene? What is hyperplasia?
-2. Describe the experimental schema, including constructs and the breeding strategy
-3. What can we conclude about cell and tissue specificity of transgene expression?
-4. What phenotypes arise from the hybrid oncogenes?
-
-------
-
-### Thanos and Maniatis  Cell  83:1091-100 (1995) [\[pdf\]](pdfs/thanos_maniatis.pdf)
-_One of the first systematic descriptions of the fine structure of enhancer._
-
-1. Describe the experiments in Figsure 3 and 4 and how these led to the proposed “enhanceosome” structure.
-2. What evidence do they provide for cooperativity between the constituent regulatory elements within the enhanceosome?
-3. What experiments suggest the existence of protein-protein interactions between NFkB and other components?
-
-------
-
-## Class 7: Distal regulatory elements, Part III
-
-### Treisman and Maniatis Nature (1985) [\[pdf\]](pdfs/treisman_maniatis.pdf)
-_First experiments aimed at discovering the mechanism of action of enhancers._
-
-1. Describe the experimental strategy used by Treisman and Maniatis. Compare results from Figure 2 and 3. What does this comparison say about the magnitude of the enhancer effect in nuclear run-on vs. steady state RNA assays?
-2. Describe the results of Figure 4. How do they relate conceptually to the findings of Gariglio et al.?
-3. How do the authors rule-out non-specific initiation?
-
-------
-
-### Weintraub Proc. Natl. Acad. Sci. USA (1988) [\[pdf\]](pdfs/weintraub_1988.pdf)
-_A seminal paper providing an elegant unifying model for the phenomenology of cis-acting transcriptional enhancers._
-
-1. Diagram the experimental strategy of Weintraub. Summarize the qualitative results from Figure 2 and the related quantitative data reported in the text.
-2. How did Weintraub show that only a limited number of active templates are expressed after transfection? Why is this important?
-3. Describe the ‘dual marker’ experiment. What is the significance of this experiment and how is it exploited?
-
-------
-
-### Grosveld et al. Cell 51:975-85 (1987) [\[pdf\]](pdfs/grosveld.pdf)
-_Discovery of what we now call Locus Control Regions._
-
-1. Describe the experimental schema. How does exogenous DNA integrate into the mouse genome?
-2. What are position effects, and what is the significance of copy number-dependent expression?
-3. What model is proposed by the authors to explain their observations?
-
-## Class 8: Epigenetics and reprogramming
-
-### Lee et al.  Cell  72:73-84 (1993) [\[pdf\]](pdfs/lee.pdf)
-_First evidence suggesting a direct role for histone modification in transcriptional regulation._
-
-1.	What property of the 5S RNA gene promoter makes it a model system for studying nucleosome-DNA interactions in vitro?
-2.	Explain the results of Figure 3 and how they relate to the model shown in Figure 4
-3.	Combining data from Figure 6 with those of Figure 3, what can we conclude about the nature of histone-DNA contacts from acetylated vs. non-acetylated histones?
-
-------
-
-### Davis et al. Cell 51:987-1000 (1987) [\[pdf\]](pdfs/davis.pdf)
-_First demonstration that a transcription factor can reprogram cell fate._
-
-1.	Describe subtractive cDNA hybridization / cloning and how it is applied in their experiments
-2.	What can be concluded from the experiments shown in Figs. 2 and 3?
-3.	Interpret the results of the experiment shown in Fig. 4 and the outcomes in Table 1
-
-
-<!--
-
-------
-
-### Blom van Assendelft et al Cell 56:969-977 (1989) [\[pdf\]](pdfs/blom_van_assendelft.pdf)
-_First demonstration that the cell type-specific activity of a distal regulatory element is distinct from that of its promoter targets._
-
-1. What is the structure of the experimental test constructs before and after transfection?
-2. How do the authors test for copy number-dependent expression?
-3. What are the general implications of the authors’ findings for the organization of genes within the genome?
-
-------
-
-## Tutorial 2 topics
-
-1. Position effect variegation
-2. Monoallelic expression
-3. DNA methylation
-4. Alternative splicing
-5. Transcriptional rate vs. transcription initiation
-6. CTCF
-7. Splicing factors
-8. Identification of sequence-specific DNA binding proteins
-
-
-## Class 8: Insulators
-
-### Chung et al. Cell 74:505-14 (1993) [\[pdf\]](pdfs/chung.pdf)
-_Discovery of insulator elements._
-
-1. Describe the experimental paradigm. What is the significance of the colony counting assay?
-2. How do the authors test for directionality?
-3. What does figure 5 show, and what is the mechanistic significance?
-
-### Bell et al., Cell 98:387-96 (1999) [\[pdf\]](pdfs/bell_1999.pdf)
-_The protein CTCF is required for the enhancer blocking activity of vertebrate insulators._
-
-1. Describe the experimental paradigm employed by the authors
-2. How do the authors connect specifically the observed functional outcomes to CTCF protein binding
-
-------
-
-## Class 9: Transcription factors
-
-### Miller et al. EMBO J., 4:1609-1614 (1985) [\[pdf\]](pdfs/miller.pdf)
-_Discovery of the zinc finger domain._
-
-1.	What property makes TFIIIA such attractive quarry?
-2.	What do the protease digestion experiments in Figure 1 show?
-3.	How do the authors arrive with the model of Figure 4?
-4.	Explain Figure 6 and how the authors propose TFIIIA relates to a passing polymerase
-
-------
-
-### Brent and Ptashne Cell 43:729-736 (1985) [\[pdf\]](pdfs/brent_ptashne.pdf)
-_Discovery of transcription factor activation domains._
-
-1.	Describe the experimental schema
-2.	What does Table 2 show, and how is this augmented by data in Table 5?
-3.	Would a fusion protein comprising only the first 74 amino acids of GAL4 stimulate transcription?
-4.	What is the fundamental conclusion concerning the mechanism by which DNA binding factors stimulate transcription?
-
-------
-
-### Kadonaga and Tjian PNAS 83:5889-5893 (1986) [\[pdf\]](pdfs/kadonaga.pdf)
-_Purification of the first human sequence-specific DNA binding proteins._
-1.	Describe the affinity column setup and the purification schema. What is the key step that enabled very high specificity?
-2.	How did they show that the protein purified was Sp1?
-3.	How much cellular material did the experiments require?
-
-------
-
---!>
-
-<!--
-
-### Bonus papers
-
-
-### Karin et al. Nature  308:513-519 (1984) [\[pdf\]](pdfs/karin.pdf)
-_This paper describes the existence of highly specialized regulatory response sequences in mammalian promoters._
-
-1. Describe the experimental paradigm used by Karin et al to isolate response elements.
-2. Could this method be used to map core promoter elements such as the TATA box?
-3. How is the loss of hormone inducibility specifically connected with binding of the glucocorticoid receptor?  
-
-
-### Desplan et al. Nature 318:630-635 (1985)
-First demonstration that homeobox-containing proteins are DNA binding factors.
-1.	What is the homeobox?
-2.	Describe the experiments in Figures 2 and 3 and the key conclusions therefrom.
-3.	What does Figure 4 show and what is its significance?
-
-
-### Reitman et al., Nature 348:749-52 (1990) [\[pdf\]](pdfs/reitman.pdf)
-_Site-independent expression of the chicken beta A-globin gene in transgenic mice._ 
-
-Questions TBD
-
-
-### Bell and Felsenfeld   Nature 405:482-5 (2000) [\[pdf\]](pdfs/bell_2000.pdf)
- _Role of insulators in genomic imprinting._
-
- 1. Describe the phenomenon of genomic imprinting and its manifestation with respect to _Igf2_
- 2. How do the authors show that CTCF is specifically responsible for the effect?
-
-
-  ### Crenshaw et al.  Cell 49:389-98 (1987) [\[pdf\]](pdfs/crenshaw.pdf)
-  _Inferring the existence of splicing factors._
-
-  1. Diagram the experimental strategy of Crenshaw et al.  What do Figure 2 and Table 1 show? 
-  2. Which normally non-expressing tissue is capable of producing both calcitonin and CGRP?  Is CGRP processed the same in all neurons?
-  3. What is the main implication of the authors' findings regarding the machinery that carries out splicing? -->
