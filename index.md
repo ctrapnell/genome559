@@ -56,21 +56,21 @@ There will be an in-class final exam on the last day of class.
 Grades will come 80% from problem sets and 20% from one final exam. There will be no mid-term exam.
 
 ## Home page
-The course home pages can be found at <http://noble.gs.washington.edu/~noble/genome559>.
+The course home pages can be found at <http://noble.gs.washington.edu/~noble/genome559> and <htpp://ctrapnell.github.io/genome559>.
 A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 
 ##Class schedule
 
 | Date | Lecture Topic | Programming Topic | Reading | Homework Assigned |
 | ---- | ------------- | ----------------- | ------- | ----------------- |
-|   XXX   | [Phylogenetic Trees](slides/NEW_1A_Trees.pdf) | [The next step ....](slides/NEW_1B_NextSteps.pdf) | | |
-|   XXX   | [Parsimony](slides/NEW_2A_Parsimony.pdf) | [Functions](slides/NEW_2B_Functions.pdf) | | |
-|   XXX   | [Small parsimony](slides/NEW_3A_SmallParsimony.pdf) | [	Functions, arguments](slides/NEW_3B_Functions_Arguments.pdf) | | |
-|   XXX   | [Big Parsimony, Bootstrap support](slides/NEW_4A_LargeParsimonyBranch.pdf) | [Modules](slides/NEW_4B_Functions_Modules.pdf.pdf) | | |
-|   XXX   | [Clustering, hierarchical Clustring](slides/NEW_5A_Clustering_Hierarchical.pdf) | [More on functions, Sorting](slides/NEW_5B_functions_and_sorting.pdf) | | |
-|   XXX   | [K-mean clustring](slides/NEW_6A_Clustering_Kmean.pdf) | [Classes and objects 1](slides/NEW_6B_Classes_1.pdf) | | |
-|   XXX   | [Biological networks and Dijkstra's algorithm](slides/NEW_7A_Networks_Dijkstra.pdf) | [Classes and objects 2](slides/NEW_7B_Classes_2) | | |
-|   XXX   | [	Biological networks and network motifs](slides/NEW_8A_Networks_Motifs.pdf) | [Classes and objects 3 (practice)](slides/NEW_8B_Classes_3.pdf) | | |
+|   Thu Feb 14   | [Phylogenetic Trees](slides/NEW_1A_Trees.pdf) | [The next step ....](slides/8B_Dictionaries.pdf) | | |
+|   Tue Feb 19   | [Parsimony](slides/NEW_2A_Parsimony.pdf) | [Functions](slides/NEW_2B_Functions.pdf) | | |
+|   Thu Feb 21   | [Small parsimony](slides/NEW_3A_SmallParsimony.pdf) | [	Functions, arguments](slides/NEW_3B_Functions_Arguments.pdf) | | |
+|   Tue Feb 26  | [Big Parsimony, Bootstrap support](slides/NEW_4A_LargeParsimonyBranch.pdf) | [Modules](slides/NEW_4B_Functions_Modules.pdf.pdf) | | |
+|   Tue Feb 28   | [Clustering, hierarchical Clustring](slides/NEW_5A_Clustering_Hierarchical.pdf) | [More on functions, Sorting](slides/NEW_5B_functions_and_sorting.pdf) | | |
+|   Tue Mar 5   | [K-mean clustring](slides/NEW_6A_Clustering_Kmean.pdf) | [Classes and objects 1](slides/NEW_6B_Classes_1.pdf) | | |
+|   Thu Mar 7   | [Biological networks and Dijkstra's algorithm](slides/NEW_7A_Networks_Dijkstra.pdf) | [Classes and objects 2](slides/NEW_7B_Classes_2) | | |
+|   Tue Mar 12   | [	Biological networks and network motifs](slides/NEW_8A_Networks_Motifs.pdf) | [Classes and objects 3 (practice)](slides/NEW_8B_Classes_3.pdf) | | |
 |   Mon Mar 18  |  Final exam, 10:30 am - 12:20 pm, Foege S110 (Note the different room number) |
 
 
