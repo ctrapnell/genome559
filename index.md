@@ -40,7 +40,7 @@ Tuesday and Thursday, 10:30 - 11:50 am, [Foege Building S040](http://www.washing
 Substantial background in molecular and cellular biology, genetics, biochemistry, or related disciplines.
 
 ## Course materials
-Readings for the Python parts of the class will be assigned from the free online textbook Think Python. A listing of additional reference material can be found here.
+Readings for the Python parts of the class will be assigned from the free online textbook [Think Python](http://www.greenteapress.com/thinkpython/thinkpython.pdf). A listing of additional reference material can be found here.
 
 ## Course requirements
 * The course involves hands-on programming during class time, so students should bring a laptop to class.
