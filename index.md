@@ -63,7 +63,7 @@ A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 
 | Date | Lecture Topic | Programming Topic | Reading | Homework Assigned |
 | ---- | ------------- | ----------------- | ------- | ----------------- |
-|   Thu Feb 14   | [Phylogenetic Trees](slides/NEW_1A_Trees.pdf) | [The next step ....](slides/8B_Dictionaries.pdf) | | |
+|   Thu Feb 14   | [Phylogenetic Trees](slides/NEW_1A_Trees.pdf) | [Dictionaries](slides/8B_Dictionaries.pdf) | Chapter 11 | |
 |   Tue Feb 19   | [Parsimony](slides/NEW_2A_Parsimony.pdf) | [Functions](slides/NEW_2B_Functions.pdf) | | |
 |   Thu Feb 21   | [Small parsimony](slides/NEW_3A_SmallParsimony.pdf) | [	Functions, arguments](slides/NEW_3B_Functions_Arguments.pdf) | | |
 |   Tue Feb 26  | [Big Parsimony, Bootstrap support](slides/NEW_4A_LargeParsimonyBranch.pdf) | [Modules](slides/NEW_4B_Functions_Modules.pdf.pdf) | | |
