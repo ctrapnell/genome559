@@ -59,7 +59,7 @@ Grades will come 80% from problem sets and 20% from one final exam. There will b
 The course home pages can be found at <http://noble.gs.washington.edu/~noble/genome559> and <htpp://ctrapnell.github.io/genome559>.
 A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 
-##Class schedule
+## Class schedule
 
 | Date | Lecture Topic | Programming Topic | Reading | Homework Assigned |
 | ---- | ------------- | ----------------- | ------- | ----------------- |
@@ -72,5 +72,10 @@ A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 |   Thu Mar 7   | [Biological networks and Dijkstra's algorithm](slides/NEW_7A_Networks_Dijkstra.pdf) | [Classes and objects 2](slides/NEW_7B_Classes_2) | | |
 |   Tue Mar 12   | [	Biological networks and network motifs](slides/NEW_8A_Networks_Motifs.pdf) | [Classes and objects 3 (practice)](slides/NEW_8B_Classes_3.pdf) | | |
 |   Mon Mar 18  |  Final exam, 10:30 am - 12:20 pm, Foege S110 (Note the different room number) |
+
+## Input files
+
+* <files/sample.fasta>
+* <files/large-scores.txt>
 
 
