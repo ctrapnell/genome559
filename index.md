@@ -77,5 +77,6 @@ A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 
 * [sample.fasta](input_files/sample.fasta)
 * [large-scores.txt](input_files/large-scores.txt)
+* [unique-scores.txt](input_files/unique-scores.txt)
 
 
