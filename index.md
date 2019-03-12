@@ -70,7 +70,7 @@ A Canvas page is at <https://canvas.uw.edu/courses/1256249>.
 |   Tue Feb 28   | [Clustering, hierarchical Clustring](slides/NEW_5A_Clustering_Hierarchical.pdf) | [More on functions, Sorting](slides/NEW_5B_functions_and_sorting.pdf) | | |
 |   Tue Mar 5   | [K-mean clustring](slides/NEW_6A_Clustering_Kmean.pdf) | [Classes and objects 1](slides/NEW_6B_Classes_1.pdf) | | |
 |   Thu Mar 7   | [Biological networks and Dijkstra's algorithm](slides/NEW_7A_Networks_Dijkstra.pdf) | [Classes and objects 2](slides/NEW_7B_Classes_2) | | |
-|   Tue Mar 12   | [	Biological networks and network motifs](slides/NEW_8A_Networks_Motifs.pdf) | [Classes and objects 3 (practice)](slides/NEW_8B_Classes_3.pdf) | | |
+|   Tue Mar 12   | [	Regular expresssions](slides/Regex.pdf) |  | | |
 |   Mon Mar 18  |  Final exam, 10:30 am - 12:20 pm, Foege S110 (Note the different room number) |
 
 ## Input files
